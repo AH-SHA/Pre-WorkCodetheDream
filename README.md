@@ -1,4 +1,4 @@
-Purpose of this Application:   
+PURPOSE of this APPLICATION   
 
 This is a simple command line Python application.  
 It requests the user's input for a 2-letter abbreviation of a country.  
