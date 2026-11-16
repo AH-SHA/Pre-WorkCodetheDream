@@ -40,7 +40,7 @@ def main():
 
     i = 3  
 for i in range (3):
-  
+    counter = 2-i 
 
     app_Instructions()
     print()
@@ -102,12 +102,13 @@ for i in range (3):
                     capital = answer["capital"]
                     population = answer["population"]
 
-                    country_info = f"Country's Info:  {name}  |  {capital}  |  {population:,}"
+                    country_info = f"Country's Info:  {name}  |  {capital}  |  {population:,} population"
                     print(country_info)
-                    
+                    print(str(counter) + " chances remaining to select a country.")
                         
     finally: 
         print("Thanks for using this tool!") 
+        print()
         print()
 
    
